@@ -1,5 +1,5 @@
 # A desire and its perfume
-Technique de programmation - projet
+Technique de programmation - Projet
 
 Al Bakaoui Chayma
 El Yaakoubi Youssef
