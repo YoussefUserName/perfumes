@@ -24,7 +24,7 @@ Après avoir préalablement installé les packages, vient l'étape de l'identifi
 
 Concentrons-nous sur la première requête "Entrez le nombre de page souhaité" ; le code sur .py est le suivant : 
 
-'''
+```
 
 def saisie_nombre_de_pages_resultat():
     nb_pages = 0
@@ -42,7 +42,7 @@ def saisie_nombre_de_pages_resultat():
                 break
     return nb_pages + 1
 
-'''
+```
 
 Cette boucle prend également en compte la possibilité que l'utilisateur saisisse un nombre invalide ou inférieur à 1. Dans ces deux cas de figures, un message d'erreur est affichée invitant l'utilisateur à retaper un nombre valide et supérieur à 1. La logique reste approximativement la même pour les autres questions préalables. 
 
