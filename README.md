@@ -1,5 +1,5 @@
-# perfumes
-Which perfume fits the best on you ? 
+# A desire and its perfume
+Technique de programmation - projet
 
 Al Bakaoui Chayma
 El Yaakoubi Youssef
