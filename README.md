@@ -9,11 +9,11 @@ He Chunhua
 
 Par une technique d'extraction de contenu à partir du site Web Notino, technique nommée le Web Scraping, notre outil vous fournit, de la façon la plus simple et la plus rapide, le parfum qui correspond à vos envies, même les plus précises ! 
 
-Le choix du site à scrapper repose essentiellement sur la qualité des notes des parfums. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code peut être appliquée également à partir des parfums pour homme. 
+Le choix du site à scrapper repose essentiellement sur la qualité des notes des parfums. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code peut être appliquée également à partir des parfums pour homme. Dans ce cas, l'URL à scrapper sera différent ; il correspondera au lien renvoyant à la page de parfums pour homme.  
 
 ***Librairies utilisées ***
 
-les libraires utilisées sont les suivants : 
+les libraires utilisées sont les suivantes : 
 - Requests : il s'agit du package qui permet d'envoyer Python faire une requête sur une page HTTP
 - Pandas : c'est la librairie qui va nous permettre de manipuler facilement les données à analyser
 - BeautifulSoup : ce package va nous permettre l'analyse des documents HTML et XML et une extraction de données
