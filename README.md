@@ -1,9 +1,7 @@
 # A desire and its perfume
 Technique de programmation - Projet de groupe
 
-Al Bakaoui Chayma
-/El Yaakoubi Youssef
-/He Chunhua
+Al Bakaoui Chayma, El Yaakoubi Youssef, He Chunhua
 
 ***Objectif***
 
