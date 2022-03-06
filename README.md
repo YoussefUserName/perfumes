@@ -2,8 +2,8 @@
 Technique de programmation - Projet de groupe
 
 Al Bakaoui Chayma
-El Yaakoubi Youssef
-He Chunhua
+/El Yaakoubi Youssef
+/He Chunhua
 
 ***Objectif***
 
