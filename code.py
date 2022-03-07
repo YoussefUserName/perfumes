@@ -20,7 +20,7 @@ def saisie_nombre_de_pages_resultat():
                 continue
             else:
                 break
-    return nb_pages + 1 #"+1" car les caractéristiques de la page ne sortent qu'à partir de la page 2
+    return nb_pages + 1 
 
 def saisie_type_tri_resultat():
     type_tri = 0
@@ -183,10 +183,7 @@ def programme_principal():
     type_tri = saisie['type_tri']
     type_parfum = saisie['type_parfum']
 
-    #Variables à decommentez pour tester facilement l'application sans avoir les questions..
-    #nb_pages = 40
-    #type_tri = 9
-    #type_parfum = 0
+    
     type_plist = [
         -34693, -34696, -57258, -34691, -57259,
         -34694, -57257, -34700, -34699, -34702,
