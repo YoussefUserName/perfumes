@@ -79,7 +79,7 @@ Vient ensuite l’étape de l’élaboration du code : les librairies essentiell
 
 Pour pouvoir 'scrapper' toutes les pages, nous rajoutons les numéros de pages ```str(page)``` qui vont être générés par nos fonctions. Ainsi que le type de tri des parfums ```str(type_tri)```, et enfin, leurs caractéristiques olfactives ```str(type_plist[type_parfum])```.
 
-Les données que l’on souhaite extraire sont imbriquée dans ```<li>``` ; donc on va chercher les mentions ```<li>``` et leur nom de classes respectives ```class```, extraire les données ```item``` et les stocker dans une variable ```url```. 
+Les données que l’on souhaite extraire sont imbriquées dans ```<li>``` ; donc on va chercher les mentions ```<li>``` et leur nom de classes respectives ```class```, extraire les données ```item``` et les stocker dans une variable ```url```. 
 
 Cette partie du code est dédiée à orienter notre programme à récupérer uniquement les données concernant les parfums pour femme. 
 
