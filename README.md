@@ -1,4 +1,4 @@
-# A desire and its perfume
+# A fragrance for YOU
 
 ***Technique de programmation - Projet de groupe***
 
