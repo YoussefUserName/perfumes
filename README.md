@@ -7,7 +7,7 @@ Al Bakaoui Chayma, El Yaakoubi Youssef, He Chunhua
 
 Par une technique d'extraction de contenu à partir du site Web Notino, technique nommée le Web Scraping, notre outil vous fournit, de la façon la plus simple et la plus rapide, le parfum qui correspond à vos envies, même les plus précises ! 
 
-Le choix du site à scrapper repose essentiellement sur la qualité des notes des parfums. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code peut être appliquée également à partir des parfums pour homme. Dans ce cas, l'URL à scrapper sera différent ; il correspondera au lien renvoyant à la page de parfums pour homme.  
+Le choix du site à scrapper repose essentiellement sur la qualité des notes des parfums. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code puisse être appliquée également à partir des parfums pour homme. Dans ce cas, l'URL à scrapper sera différent ; il correspondra au lien renvoyant à la page de parfums pour homme.  
 
 ***Librairies utilisées ***
 
