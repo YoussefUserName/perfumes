@@ -165,11 +165,18 @@ Puis nous exécutons notre programme.
 
 Lors de l'éxécution du programme, vous aurez sûrement un nombre conséquent de résultats. Selon la plateforme sur laquelle vous lancer le programme, ceux-ci seront plus ou moins visibles dans leur totalité. N'hésitez pas à jeter un oeil dans vos documents, un fichier csv ```produits_parfum.csv``` vous y attend ;)
 
-# Difficultés 
+# Difficultés et Critiques
 
-L’une des grandes difficultés à laquelle on a été confrontés est les fréquentes mise à jour du site Notino. La structure du site change et par conséquent un code qui fonctionnait il y a une heure peut ne plus fonctionner après une mise à jour qui n’est même pas annoncée. C’est en remarquant que les balises du site ont changés que nous avons compris pourquoi notre code ne fonctionnait plus et affichait comme message d’erreur « Empty Data Frame ». 
+1. Difficultés 
 
-Ça été d’abord les items <li> qui ont été retirés et remplacées par <div> : nous avons donc redéfinis un code qui était à nouveau opérationnel. 
-Puis une autre mise à jour du site a modifié à nouveau la structure du site : les développeurs ont rechangé les balises avec les précédents. C’est ainsi que nous avons appris que quand il est question de Web Scraping, il est judicieux d’inspecter régulièrement le site à scrapper. 
+Lors de la création de ce programme d'automatisation nous avons rencontrés plusieurs difficultés. L'une d'elle a été le fait de voir que la première page n'avait pas le même ```url``` que les autres pages, il nous a fallu un peu de temps pour contourner le problème. Ensuite, nous nous sommes confrontés à la difficulté de scrapper les prix et les notes des consommateurs. Dans le code ```html``` du site web, les prix sont précédés de chaînes de caractères, pour contourner ce problème il nous a fallu un certain temps. De même pour les notes des consommateurs où une autre difficulté s'est ajoutée : les étoiles de 1 à 5 sont (en nombre entier) sur 70, ce qui n'est pas facilement détéctable à première vue sur le code du site web. 
     
+Aussi, nous avions au départ un code qui formait une grosse boucle. Grâce à vos conseils que nous avons appliqués, nous avons créé plusieurs fonctions qui se répondent au fil du code, réadapter le programme a aussi été une difficulté que nous avons rencontré. 
 
+Enfin, après plusieurs recherches, nous avons découvert qu'il était possible que les développeurs d'un site web mettent souvent à jour le code de celui-ci. Nos codes ont souvent fonctionné un jour, puis plus tout un autre jour. Cela s'est limité à un changement de ```<li>``` par des ```<div>``` et vis-verça, heureusement. 
+
+2. Critique
+
+Nous avions comme idée au départ, de créer un programme qui traiterait de toutes les notes d'un parfum (de tête mais aussi de coeur et de fond). Ainsi, l'expérience aurait été totale, avec plusieurs milliers de parfums filtrés en seulement une petite dixaine. Nous nous sommes vite rendu compte que pour réaliser un tel projet, il aurait fallu récupérer toutes les ```url``` de tous les parfums individuellement, et par la suite récupérer toutes les notes en référence dans les liens de ces parfums. Nous n'avons pas trouvé de méthode, par manque de temps et d'expérience, mais nous avons pour objectif de réaliser ce projet à l'avenir. Ce travail nous a donné pleins d'idées. 
+
+**Merci !**
