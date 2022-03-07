@@ -162,3 +162,6 @@ if __name__ == '__main__':
 ```
 La commande ```if __name__ == '__main__'``` permet de contourner la distinction que va faire Python entre le module principal ```__main__``` et le module importé ```__name__```. Ici nous avons des fonctions créées (donc des modules importés) qui doivent fusionner entre elles, il faut alors toutes les rassembler dans le même module principal ```__main__```.
 Puis nous exécutons notre programme.
+
+Lors de l'éxécution du programme, vous aurez sûrement un nombre conséquent de résultats. Selon la plateforme sur laquelle vous lancer le programme, ceux-ci seront plus ou moins visibles dans leur totalité. N'hésitez pas à jeter un oeil dans vos documents, un fichier csv ```produits_parfum.csv``` vous y attend ;)
+
