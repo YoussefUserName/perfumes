@@ -6,7 +6,7 @@
 
 # Introduction
 
-On a toutes et tous été confrontés à la difficulté de trouver LE parfum qui correspondrait à nos envies. Quelle note choisir ? Pour quel budget ? Ceux sont pleins de facteurs qui entrent en jeu lors du processus d’achat. 
+On a toutes et tous été confrontés à la difficulté de trouver le parfum qui correspondrait à nos envies. Quelle note choisir ? Pour quel budget ? Ceux sont pleins de facteurs qui entrent en jeu lors du processus d’achat. 
 
 Aujourd’hui, la grande majorité des sites web nous permettent d’affiner de plus en plus notre recherche pour obtenir le résultat qui correspondrait au mieux à nos préférences. 
 C’est surtout dans une logique de compréhension du processus qui se cache derrière ces sites web, que nous avons décidé de créer un outil qui automatise la tâche de recherche du parfum parfait ; mais aussi un outil de simplification. 
