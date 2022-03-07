@@ -165,3 +165,11 @@ Puis nous exécutons notre programme.
 
 Lors de l'éxécution du programme, vous aurez sûrement un nombre conséquent de résultats. Selon la plateforme sur laquelle vous lancer le programme, ceux-ci seront plus ou moins visibles dans leur totalité. N'hésitez pas à jeter un oeil dans vos documents, un fichier csv ```produits_parfum.csv``` vous y attend ;)
 
+# Difficultés 
+
+L’une des grandes difficultés à laquelle on a été confrontés est les fréquentes mise à jour du site Notino. La structure du site change et par conséquent un code qui fonctionnait il y a une heure peut ne plus fonctionner après une mise à jour qui n’est même pas annoncée. C’est en remarquant que les balises du site ont changés que nous avons compris pourquoi notre code ne fonctionnait plus et affichait comme message d’erreur « Empty Data Frame ». 
+
+Ça été d’abord les items <li> qui ont été retirés et remplacées par <div> : nous avons donc redéfinis un code qui était à nouveau opérationnel. 
+Puis une autre mise à jour du site a modifié à nouveau la structure du site : les développeurs ont rechangé les balises avec les précédents. C’est ainsi que nous avons appris que quand il est question de Web Scraping, il est judicieux d’inspecter régulièrement le site à scrapper. 
+    
+
