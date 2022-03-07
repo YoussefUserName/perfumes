@@ -22,14 +22,14 @@ En effet, le Web Scraping nous permet de collecter une quantité importante d’
 
 Le choix du site à scrapper repose essentiellement sur la qualité des notes des parfums. Nous avons également choisi arbitrairement de cibler une clientèle féminine bien que la logique du code puisse être appliquée également à partir des parfums pour homme. Dans ce cas, l'URL à scrapper sera différent ; il correspondra au lien renvoyant à la page de parfums pour homme.
 
-***Librairies utilisées ***
+***Librairies utilisées***
 
 les libraires utilisées sont les suivantes : 
 - Requests : il s'agit du package qui permet d'envoyer Python faire une requête sur une page HTTP
 - Pandas : c'est la librairie qui va nous permettre de manipuler facilement les données à analyser
 - BeautifulSoup : ce package va nous permettre l'analyse des documents HTML et XML et une extraction de données
 
-***Utilisation* **
+***Utilisation***
 
 1. Quelles sont vos envies ? 
 
