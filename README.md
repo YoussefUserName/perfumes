@@ -177,6 +177,6 @@ Enfin, après plusieurs recherches, nous avons découvert qu'il était possible 
 
 2. Critique
 
-Nous avions comme idée au départ, de créer un programme qui traiterait de toutes les notes d'un parfum (de tête mais aussi de coeur et de fond). Ainsi, l'expérience aurait été totale, avec plusieurs milliers de parfums filtrés en seulement une petite dixaine. Nous nous sommes vite rendu compte que pour réaliser un tel projet, il aurait fallu récupérer toutes les ```url``` de tous les parfums individuellement, et par la suite récupérer toutes les notes en référence dans les liens de ces parfums. Nous n'avons pas trouvé de méthode, par manque de temps et d'expérience, mais nous avons pour objectif de réaliser ce projet à l'avenir. Ce travail nous a donné pleins d'idées. 
+Nous avions comme idée au départ, de créer un programme qui traiterait de toutes les notes d'un parfum (de tête mais aussi de coeur et de fond). Ainsi, l'expérience aurait été totale, avec plusieurs milliers de parfums filtrés en seulement une petite dixaine. Nous nous sommes vite rendu compte que pour réaliser un tel projet, il aurait fallu récupérer touts les ```url``` de tous les parfums individuellement, et par la suite récupérer toutes les notes en référence dans les liens de ces parfums. Nous n'avons pas trouvé de méthode, par manque de temps et d'expérience, mais nous avons pour objectif de réaliser ce projet à l'avenir. Ce travail nous a donné pleins d'idées. 
 
 **Merci !**
