@@ -15,17 +15,18 @@ def saisie_nombre_de_pages_resultat():
             print("Veuillez insérer un nombre valide")
             continue
         else:
-            if nb_pages <= 0:
-                print("Veuillez insérer un nombre supérieur à 0")
-                continue
-            else:
+            if nb_pages > 0:
                 break
+            print("Veuillez insérer un nombre supérieur à 0")
+            continue
     return nb_pages + 1 
 
 def saisie_type_tri_resultat():
     type_tri = 0
-    question = "Quel ordre de tri souhaitez-vous?\n"
-    question += " - Par recommandation    : Tapez 1\n"
+    question = (
+        "Quel ordre de tri souhaitez-vous?\n"
+        + " - Par recommandation    : Tapez 1\n"
+    )
     question += " - Par meilleures ventes : Tapez 9\n"
     question += " - Par prix croissant    : Tapez 3\n"
     question += " - Par prix décroissant  : Tapez 5\n"
@@ -39,18 +40,16 @@ def saisie_type_tri_resultat():
             print("Veuillez insérer un nombre valide")
             continue
         else:
-            if type_tri not in [1, 2, 3, 5, 9]:
-                print("Veuillez insérer un nombre compris dans la liste suivante : [1, 2, 3, 5, 9]")
-                continue
-            else:
+            if type_tri in {1, 2, 3, 5, 9}:
                 break
+            else:
+                print("Veuillez insérer un nombre compris dans la liste suivante : [1, 2, 3, 5, 9]")
     return type_tri
 
 
 def saisie_type_parfum_resultat():
     type_parfum = 0
-    question = "Quel type de parfum souhaitez-vous?\n"
-    question += " - Oriental  : Tapez 0\n"
+    question = "Quel type de parfum souhaitez-vous?\n" + " - Oriental  : Tapez 0\n"
     question += " - Vert      : Tapez 1\n"
     question += " - Musqué    : Tapez 2\n"
     question += " - Héspéridé : Tapez 3\n"
@@ -72,11 +71,10 @@ def saisie_type_parfum_resultat():
             print("Veuillez insérer un nombre valide")
             continue
         else:
-            if type_parfum not in [-1, 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11]:
-                print("Veuillez insérer un nombre compris entre [-1;11]")
-                continue
-            else:
+            if type_parfum in {-1, 0, 1, 2, 3, 4, 5, 7, 8, 9, 10, 11}:
                 break
+            else:
+                print("Veuillez insérer un nombre compris entre [-1;11]")
     return type_parfum
 
 
@@ -94,10 +92,7 @@ def verification_champ_type_produit(type_produit):
 
 def verification_champ_prix(prix):
     if prix is not None:
-        if "de" in prix.text:
-            begin = prix.text.index("de") + 2
-        else:
-            begin = 0
+        begin = prix.text.index("de") + 2 if "de" in prix.text else 0
         end = prix.text.index("/")
         prix = prix.text[begin:end].replace(",", ".").strip()
     else:
@@ -172,7 +167,7 @@ def afficher_resutat(produits_parfum_csv):
 
 def ajout_code_produits_parfum_csv(produits_parfum_csv):
     df = pd.read_csv(produits_parfum_csv)
-    df.insert(0, "Code", [i for i in range(0, df.index.stop)])
+    df.insert(0, "Code", list(range(df.index.stop)))
     df.to_csv(produits_parfum_csv, mode='w+', index=False, header=True)
 
 
